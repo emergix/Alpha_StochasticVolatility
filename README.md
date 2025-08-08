@@ -16,7 +16,7 @@ We extend a **Heston-type stochastic volatility process** to multiple underlying
 $$dS_i = \sum_{j=1}^m \alpha_{ij} v_j S_i  dW_j + v_{m+i} S_i  dW_{m+i}$$
 
 **Volatility dynamics**:
-$$dv_j = \lambda_j (\theta_j - v_j) dt + \nu_j v_j  dW_{\text{noise}(j)$$
+$$dv_j = \lambda_j (\theta_j - v_j) dt + \nu_j v_j  dW_{noise,j}$$
 
 Where:
 - **$S_i$** = underlying rate (e.g., swap rate for a given tenor)
