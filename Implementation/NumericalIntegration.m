@@ -19,7 +19,7 @@
 
 
 
-<< "/Users/oliviercroissant/Documents/Math/SABR.m"
+<< "C:\\Documents and Settings\\ocroissant\\My Documents\\SABR.m"
 
 
 NormDis[x_]:=If[x>5,1,If[x<-5,0,(Erf[x/Sqrt[2]]+1)/2]]
